@@ -1,0 +1,38 @@
+<style>
+body{
+	padding-top: 1em;
+	font-family: bubblegum;
+	color: white;
+	background-image: url(backround.gif);
+	font-size: 24px}
+ul.navbar {
+	list-style-type: none;
+    position: absolute;
+    top: -0.1em;
+    width: 7em;
+    margin-left: -10em}
+ul.navbar li{
+	background: black;
+	margin: 0.5em;
+	border: 0.2em solid white;
+	border-radius: 0.5em;
+	padding: 1em;
+	font-size: 18px;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s}
+ul.navbar li:hover{
+	background-color: #00E600}
+ul.navbar a{
+	text-decoration: none}
+a:link{
+	color: white }
+a:visited{
+	color: white }
+#outer{
+  text-align: center;
+	}
+#inner{
+  margin:0 auto;
+  width: 660px;
+  text-align: left;
+	}
+</style>
