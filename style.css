@@ -3,33 +3,47 @@ body{
 	background-image: url(bgimage.gif);
 	width: 15em;
 	margin: auto;
-	font-size: 48px
-	}
+	font-size: 40px
+}
 a:link{
-	color: White }
+	color: White 
+}
 a:visited{
-	color: White }
-ul.navbar a{
+	color: White 
+}
+a{
 	display: block;
-	text-decoration: none}
-ul.navbar{
+	text-decoration: none
+}
+ul{
 	list-style-type: none;
 	margin:0;
-	padding:0}
-ul.navbar li{
-	width: 12em;
+	padding:0em
+}
+ul li{
+	width: 480px;
 	margin-left: auto;
 	margin-right: auto;
-	background: rgba(244,128,56, .8);
-	margin-top: .15em;
-	border: 0.1em;
-	border-radius: 0.1em;
-	padding: .1em;
-	font-size: 48px;
-	transition: background 0.1s linear 0s, color 0.1s linear 0s}
-ul.navbar li:hover{
 	background-color: rgba(244,128,56,1);
-	}
+	border: 4px
+}
+ul li.main{
+	margin-top: .15em;
+	padding: .1em;
+	font-size: 40px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px}
+ul li.sub{
+	font-size: 12px;
+	color: white;
+	font-family: Arial;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: .1em;
+	margin-top: -10px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
 div{
 	background: rgba(255,255,255, .75);
 	border: 0.1em solid white;
