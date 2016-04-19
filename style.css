@@ -19,7 +19,7 @@ ul li{
 	width: 480px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(244,128,56,1);
+	background-color: rgba(244,128,56,.8);
 	border: 4px;
 }
 ul li.main{
@@ -29,7 +29,8 @@ ul li.main{
 	border-radius: 5px;
 }
 div{
-	background: rgba(255,255,255, .75);
+	background-image: url(bg.gif);
+	background-position: center; 
 	border: 0.1em solid white;
 	border-radius: 0.1em;
 	width: 12.5em;
