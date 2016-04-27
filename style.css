@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "PRIMETIME";
+    src: url(Primetime.ttf);
+}
 body{
 	font-family: "PRIMETIME";
 	background-image: url(bgimage.gif);
