@@ -1,7 +1,6 @@
 body{
 	font-family: "PRIMETIME";
 	background-image: url(bgimage.gif);
-	width: 15em;
 	margin: auto;
 	font-size: 40px;
 }
@@ -21,15 +20,13 @@ ul li{
 	margin-right: auto;
 	background-color: rgba(244,128,56,.8);
 	border: 4px;
-}
-ul li.main{
 	margin-top: .15em;
 	padding: .1em;
-	font-size: 40px;
 	border-radius: 5px;
 }
+	
 div{
-	background-image: url(bg.gif);
+	background-color: rgba(256,256,256,.8);
 	background-position: center; 
 	border: 0.1em solid white;
 	border-radius: 0.1em;
